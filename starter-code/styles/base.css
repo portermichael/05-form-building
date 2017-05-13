@@ -48,4 +48,18 @@ a:visited {
 
 label {
   display: block;
+  margin-bottom: 0.5em;
+  font-size: 1.3em;
+}
+
+input {
+  border: none;
+  border-bottom: green 1px solid;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+textarea {
+  border: green 1px solid;
+  width: 100%;
 }

@@ -12,7 +12,6 @@
     <!-- NOTE (dstretch goal): To fully incorporate the highlighting library "hljs" we need to fill the empty link tag below to refer to a CSS file that will handle our text highlighting -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
     <link>
-    <!-- TODO: We want our new article form to be able to display a preview of the article that is being entered. Thus, we need code here that will recreate the same structure of our other articles. What do you think we need to add here? -->
     <script id="article-template" type="text/x-handlebars-template">
       <article class="clearfix" data-author="{{author}}" data-category="{{category}}">
         <header>
@@ -47,7 +46,7 @@
     <main class="clearfix">
 
       <section id="write" class="tab-content">
-        <h1>Create New Article</h1>
+        <h1>New Article</h1>
         <form id="new-form">
           <label>
             <input type="text" id="article-title" placeholder="Article Title" required>
